@@ -1,11 +1,14 @@
     *.md                    @joh-klein
 README.md # checkit @joh-klein
-#/src @joh-klein
+
 /src/hello-world.txt @markusfalk
 
-file[0-9].txt @joh-klein  # Zeichenbereich funktioniert nicht.
+# Testing character range
+file[0-9].txt @joh-klein
 
-*.log @joh-klein
-!important.log @markusfalk  # Negation wird nicht unterstützt.
+# Test Negation
+*.log @markusfalk
+!important.log @joh-klein
 
-\#testfile.js @joh-klein  # Erwartet Behandlung als Dateimuster, passiert aber nicht.
+# Testing escaping \#
+\#testfile.js @joh-klein
