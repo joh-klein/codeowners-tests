@@ -1,0 +1,11 @@
+    *.md                    @joh-klein
+README.md # checkit @joh-klein
+/src @joh-klein
+/src/hello-world.txt @markusfalk
+
+file[0-9].txt @joh-klein  # Zeichenbereich funktioniert nicht.
+
+*.log @joh-klein
+!important.log @markusfalk  # Negation wird nicht unterstützt.
+
+\#testfile.js @joh-klein  # Erwartet Behandlung als Dateimuster, passiert aber nicht.
