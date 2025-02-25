@@ -10,8 +10,8 @@ file[0-9].txt @joh-klein # <-error
 # Test Negation !
 *.log @markusfalk
 # !/src/testing.log @joh-klein # <- doesn't work
-!src/testing.log @joh-klein
-#!**/testing.log @joh-klein
+#!src/testing.log @joh-klein # <- doesn't work
+!**/testing.log @joh-klein
 #!testing.log @joh-klein
 /src/important.log @joh-klein
 
