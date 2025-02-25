@@ -17,13 +17,13 @@ file[0-9].txt @joh-klein # <-error
 # **/testing.log @joh-klein # <- DOES work
 # !*/testing.log @joh-klein # <- doesn't work
 # */testing.log @joh-klein # <- DOES work
-#!testing.log @joh-klein # <- DOES work
-testing.log @joh-klein # <- DOES work
+# !testing.log @joh-klein # <- DOES work
+# testing.log @joh-klein # <- DOES work
 /src/important.log @joh-klein
 
 # Testing escaping \#
 #testfile.js @markusfalk
-\#testfile.js @joh-klein
-testfile.js @markusfalk
-test#file.js @joh-klein
-test\#file.js @markusfalk
+\#testfile.js @joh-klein # <- DOES work
+/src/#testfile.js @markusfalk
+test#file.js @joh-klein # <- doesn't work
+test\#file.js @markusfalk # <- doesn't work
