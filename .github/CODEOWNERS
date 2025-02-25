@@ -4,7 +4,7 @@ README.md # checkit @joh-klein
 /src/hello-world.txt @markusfalk
 
 # Testing character range
-file[0-9].txt @joh-klein
+file\[0-9\].txt @joh-klein
 
 # Test Negation
 *.log @markusfalk
