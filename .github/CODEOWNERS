@@ -24,7 +24,7 @@ file[0-9].txt @joh-klein # <-error
 # Testing escaping \#
 #testfile.js @markusfalk
 \#testfile.js @joh-klein # <- DOES work
-/src/#testfile.js @markusfalk # <- doesn't work
+# /src/#testfile.js @markusfalk # <- doesn't work
 /src/\#testfile.js @markusfalk
 test#file.js @joh-klein # <- doesn't work
 test\#file.js @markusfalk # <- doesn't work
