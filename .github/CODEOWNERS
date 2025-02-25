@@ -1,15 +1,15 @@
     *.md                    @joh-klein
 README.md # @joh-klein
-README.md \# @markusfalk
+README.md \# @markusfalk <- error
 
 /src/hello-world.txt @markusfalk
 
 # Testing character range
-file\[0-9\].txt @joh-klein
+file[0-9].txt @joh-klein # <-error
 
 # Test Negation
 *.log @markusfalk
-!/src/*.log
+/src/*.log
 /src/important.log @joh-klein
 
 # Testing escaping \#
