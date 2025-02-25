@@ -7,12 +7,14 @@ README.md \# @markusfalk <- error
 # Testing character range
 file[0-9].txt @joh-klein # <-error
 
-# Test Negation
+# Test Negation !
 *.log @markusfalk
-!/src/*.log @joh-klein
+!/src/testing.log @joh-klein
 /src/important.log @joh-klein
 
 # Testing escaping \#
+testfile.js @markusfalk
+#testfile.js @markusfalk
 \#testfile.js @joh-klein
 test#file.js @joh-klein
 test\#file.js @markusfalk
