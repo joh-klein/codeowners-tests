@@ -25,6 +25,6 @@ file[0-9].txt @joh-klein # <-error
 #testfile.js @markusfalk
 \#testfile.js @joh-klein # <- DOES work
 # /src/#testfile.js @markusfalk # <- doesn't work
-/src/\#testfile.js @markusfalk
-test#file.txt @joh-klein
-#test\#file.txt @markusfalk
+/src/\#testfile.js @markusfalk # <- DOES work
+#test#file.txt @joh-klein # <- doesn't work
+test\#file.txt @markusfalk
