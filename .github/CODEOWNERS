@@ -12,7 +12,7 @@ file[0-9].txt @joh-klein # <-error
 # !/src/testing.log @joh-klein # <- doesn't work
 /src/testing.log @joh-klein
 # !src/testing.log @joh-klein # <- doesn't work
-src/testing.log @joh-klein # <- doesn't work
+# src/testing.log @joh-klein # <- DOES work
 # !**/testing.log @joh-klein # <- doesn't work
 # **/testing.log @joh-klein # <- DOES work
 # !*/testing.log @joh-klein # <- doesn't work
