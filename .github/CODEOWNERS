@@ -28,3 +28,6 @@ file[0-9].txt @joh-klein # <- doesn't work (Error)
 /src/\#testfile.js @markusfalk # <- works
 # test#file.txt @joh-klein # <- doesn't work
 test\#file.txt @markusfalk # <- works
+
+file1.txt @markusfalk
+\# file8.txt @markusfalk
