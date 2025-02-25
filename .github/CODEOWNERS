@@ -1,5 +1,6 @@
     *.md                    @joh-klein
-README.md # checkit @joh-klein
+README.md # @joh-klein
+README.md \# @markusfalk
 
 /src/hello-world.txt @markusfalk
 
@@ -13,3 +14,5 @@ file\[0-9\].txt @joh-klein
 
 # Testing escaping \#
 \#testfile.js @joh-klein
+test#file.js @joh-klein
+test\#file.js @markusfalk
