@@ -16,7 +16,7 @@ src/testing.log @joh-klein # <- doesn't work
 # !**/testing.log @joh-klein # <- doesn't work
 **/testing.log @joh-klein # <- doesn't work
 # !*/testing.log @joh-klein # <- doesn't work
-*/testing.log @joh-klein # <- doesn't work
+# */testing.log @joh-klein # <- DOES work
 #!testing.log @joh-klein # <- DOES work
 /src/important.log @joh-klein
 
