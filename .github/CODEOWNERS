@@ -8,7 +8,8 @@ file\[0-9\].txt @joh-klein
 
 # Test Negation
 *.log @markusfalk
-!important.log @joh-klein
+!/src/**/*.log
+/src/important.log @joh-klein
 
 # Testing escaping \#
 \#testfile.js @joh-klein
